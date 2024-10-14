@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formula</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugings=forms"></script>
+    <script src="tailwind.config.js"></script>
+  </head>
+  <body class="bg-sky-200 text-black justify-center">
+    <main class="w-6/12">
+      <h1>Registration</h1>
+      <form method="post" class="space-y-4">
+        <p class="flex" BG-yellow-50 justify-between>
+          <label for="Email">Your email address</label>
+          <input type="email" name="username" id="email" />
+        </p>
+        <p>
+          <label for="password">Your password</label>
+          <input type="password" name="username" id="password" />
+        </p>
+        <p>
+          <label for="ConfirmPassword">ConfirmPassword</label>
+          <input type="Confirmpassword" name="username" id="ConfirmPassword" />
+        </p>
+        <p>
+          <label for="Career">Career</label>
+          <input type="submit" name="username" id="Career" />
+        </p>
+        <button
+          type="submit"
+          class="bg-blue-500"
+          hover:bg-blue-700
+          text-white
+          font-bold
+          py-2
+          px-4
+          rounded
+          class="text-white"
+        >
+          Register
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
